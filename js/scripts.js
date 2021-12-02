@@ -3,27 +3,9 @@ String.prototype.replaceAt = function (index, character) {
       this.substr(0, index) + character + this.substr(index + character.length)
     );
   };
-  
-  const palabras = ["desarrollador", "programador", "javascript", "ahorcado"];
-  
-  const palabra = palabras[Math.floor(Math.random() * palabras.length)];
-  let palabraConGuiones = palabra.replace(/./g, "_ ");
-  let contadorFallos = 0;
-  
-  
-  document.querySelector("#output").innerHTML = palabraConGuiones;
-  
-  document.querySelector("#volver").addEventListener("click", () => {
-    window.location.reload()
 
-  })
-  
-  document.querySelector("#volver2").addEventListener("click", () => {
-    window.location.reload()
-  })
-  
-  document.querySelector("#verificar").addEventListener("click", () => {
-    
+  function enter() {
+          
     const letra = document.querySelector("#letra").value;
     let haFallado = true;
     for (const i in palabra) {
@@ -51,4 +33,32 @@ String.prototype.replaceAt = function (index, character) {
     document.querySelector("#output").innerHTML = palabraConGuiones;
     document.querySelector('#letra').value = '';
     document.querySelector('#letra').focus();
+  }
+  
+  const palabras = ["desarrollador", "programador", "javascript", "ahorcado"];
+  
+  const palabra = palabras[Math.floor(Math.random() * palabras.length)];
+  let palabraConGuiones = palabra.replace(/./g, "_ ");
+  let contadorFallos = 0;
+  
+  
+  document.querySelector("#output").innerHTML = palabraConGuiones;
+  
+  document.querySelector("#volver").addEventListener("click", () => {
+    window.location.reload()
+
+  })
+  
+  document.querySelector("#volver2").addEventListener("click", () => {
+    window.location.reload()
+  })
+  
+  document.querySelector("#verificar").addEventListener("click", () => {
+      entter();
   });
+
+  document.querySelector("#letra").addEventListener("keydown", (ev) => {
+      if(ev.code == "Enter") {
+          enter();
+      }
+  })
