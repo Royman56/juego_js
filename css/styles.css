@@ -122,13 +122,14 @@ button{
     background-color: #000000;
     font-family: 'VT323', monospace;
     color: #ffffff;
+    
 }
 
 #perdiste h1{
     font-family: 'VT323', monospace;
 }
 
-#volver2 {
+#volver {
     font-family: Squada One;
     font-style: normal;
     font-weight: normal;
