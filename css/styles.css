@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 body {
 
     background: cornflowerblue;
@@ -87,6 +89,20 @@ button{
     top: 0;
     left: 0;
     background-color: #6495ED;
+    font-family: 'VT323', monospace;
+    color: #ffffff;
+}
+
+#ganaste h1{
+    font-family: 'VT323', monospace;
+}
+
+#volver {
+    font-family: Squada One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 10px;
 }
 
 #perdiste{
@@ -101,8 +117,21 @@ button{
     top: 0;
     left: 0;
     background-color: #000000;
+    font-family: 'VT323', monospace;
+    color: #ffffff;
 }
 
+#perdiste h1{
+    font-family: 'VT323', monospace;
+}
+
+#volver2 {
+    font-family: Squada One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 10px;
+}
 
 @media screen and (max-width:700px){
     h1{
