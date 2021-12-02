@@ -68,8 +68,8 @@ button{
 
 #ahorcado {
     display: inline-block;
-    height: 375px;
-    width: 330px;
+    height: 275px;
+    width: 230px;
     background-image: url(img/Group\ 1.png);
     border-radius: 10px;
     box-shadow: 3px 3px 5px #000000;
@@ -177,8 +177,8 @@ button{
 
 #ahorcado {
     
-    height: 285px;
-    width: 240px;
+    height: 275px;
+    width: 230px;
     background-image: url(img/Group\ 1.png);
     border-radius: 10px;
     box-shadow: 3px 3px 5px #000000;
