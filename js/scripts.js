@@ -54,11 +54,12 @@ String.prototype.replaceAt = function (index, character) {
   })
   
   document.querySelector("#verificar").addEventListener("click", () => {
-      entter();
+      enter();
   });
 
   document.querySelector("#letra").addEventListener("keydown", (ev) => {
       if(ev.code == "Enter") {
           enter();
+          
       }
   })
