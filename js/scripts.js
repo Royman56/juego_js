@@ -18,7 +18,7 @@ String.prototype.replaceAt = function (index, character) {
     if(haFallado){
       contadorFallos++;
       document.querySelector('#ahorcado').style.
-      backgroundPosition = -(182*contadorFallos) + 'px 0'
+      backgroundPosition = -(230*contadorFallos) + 'px 0'
       if(contadorFallos == 5){
         document.querySelector('#perdiste').style.display = 'flex';
       }
