@@ -1,0 +1,98 @@
+body {
+
+    background: cornflowerblue;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: Squada One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90px;
+    color: #FFFFFF;
+    }
+p {
+
+    font-family: Squada One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 30px;
+    color: #FFFFFF;
+   
+}
+
+input{
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: x-large;
+    box-shadow: 1px 1px 2px #000000;
+}
+button{
+    box-shadow: 2px 2px 2px #000000;
+    background-color: mistyrose;
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+#verificar {
+    font-family: Squada One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 10px;
+}
+#enunciado{
+  
+    text-align: center;
+}
+#output{
+    font-size: 60px;
+}
+
+#ahorcado {
+    display: inline-block;
+    height: 275px;
+    width: 230px;
+    background-image: url(img/Group\ 1.png);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ganaste{
+    display:none;
+    height: 100vh;
+    align-items: center;
+    font-size:60px;
+    position: fixed;
+    top:0;
+    left:0;
+
+}
+
+
+@media screen and (max-width:700px){
+    h1{
+        font-size:50px;
+       
+      }
+
+      p{
+        font-size: 26px;
+        
+    }
+
+    
+    }
+
+   
+
