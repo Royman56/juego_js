@@ -59,7 +59,7 @@ button{
     line-height: 10px;
 }
 #enunciado{
-  
+  margin: auto;
     text-align: center;
 }
 #output{
@@ -73,8 +73,7 @@ button{
     background-image: url(img/Group\ 1.png);
     border-radius: 10px;
     box-shadow: 3px 3px 5px #000000;
-    margin-left: 10px;
-    margin-right: 10px;
+  margin: auto;
 }
 
 
