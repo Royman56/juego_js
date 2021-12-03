@@ -23,7 +23,10 @@
                 Para esto tendrás que completar los espacios de las casillas <br>
                 Si te equivocas, el dibujo se completará y estarás AHORCADO</p>
             <p> INTRODUZCA UNA LETRA, POR FAVOR</p>
-            <input type="text" maxlength="1" id="letra"> <br> <button id="verificar"> Verificar </button>
+            <input type="text" maxlength="1" id="letra"> <br><button class="cybr-btn" id="verificar">
+                Verificar<span aria-hidden>_</span>
+                <span aria-hidden class="cybr-btn__glitch">Verificar</span>
+              </button>
             <p id="output"></p>
         </div>
         <div id="ahorcado"></div>
@@ -34,7 +37,10 @@
                 WIN
             </h1>
             <h2 class="txt_congratulations">CONGRATULATIONS!</h2>
-            <button id="volver">Jugar</button>
+            <button class="cybr-btn" id="volver">
+                Jugar<span aria-hidden>_</span>
+                <span aria-hidden class="cybr-btn__glitch">Jugar</span>
+              </button>
         </div>
         <div id="perdiste">
             <img class="img_perdiste" src="css/img/perdiste.png" alt="">
@@ -42,7 +48,10 @@
                 OVER
             </h1>
             <h2 class="txt_loser">L O S E R !</h2>
-            <button id="volver2">Jugar</button>
+            <button class="cybr-btn" id="volver2">
+               Jugar<span aria-hidden>_</span>
+                <span aria-hidden class="cybr-btn__glitch">Jugar</span>
+              </button>
         </div>
     </main>
 </body>
