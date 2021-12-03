@@ -4,9 +4,19 @@ String.prototype.replaceAt = function (index, character) {
     );
   };
 
+  const palabras = ["desarrollador", "programador", "javascript", "ahorcado"];
+  
+  const palabra = palabras[Math.floor(Math.random() * palabras.length)];
+  let palabraConGuiones = palabra.replace(/./g, "_ ");
+  let contadorFallos = 0;
+  
+  
+  document.querySelector("#output").innerHTML = palabraConGuiones;
+
+
   function enter() {
           
-    const letra = document.querySelector("#letra").value?.toLowerCase();
+    const letra = document.querySelector("#letra").value.toLowerCase();
     let haFallado = true;
     for (const i in palabra) {
       if (letra == palabra[i]) {
@@ -35,14 +45,6 @@ String.prototype.replaceAt = function (index, character) {
     document.querySelector('#letra').focus();
   }
   
-  const palabras = ["desarrollador", "programador", "javascript", "ahorcado"];
-  
-  const palabra = palabras[Math.floor(Math.random() * palabras.length)];
-  let palabraConGuiones = palabra.replace(/./g, "_ ");
-  let contadorFallos = 0;
-  
-  
-  document.querySelector("#output").innerHTML = palabraConGuiones;
   
   document.querySelector("#volver").addEventListener("click", () => {
     window.location.reload()
